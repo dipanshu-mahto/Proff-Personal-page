@@ -1,13 +1,13 @@
 import React from "react"
-
+import AppRouter from "../AppRouter"
 function main(){
     return (
         <main>
-            <h1>Fun facts about React</h1>
+            <h1>Dr.Tasneem Pravin</h1>
             <ul>
-                <li>Was first released</li>
-                <li>Was originally</li>
-                <li>Has well over</li>
+                <li>Associate Professor</li>
+                <li>Chemestry Department</li>
+                <li>NIT PATNA</li>
             </ul>
         </main>
     )

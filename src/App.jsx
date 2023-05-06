@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import React from 'react'
+import AppRouter from './AppRouter'
 
 
 import './App.css'
@@ -8,13 +9,13 @@ import Navbar from './assets/nav'
 function App() {
 
   return (
-    <React.StrictMode>
+    <>
     <div className="App">
     <Navbar />
-   <Main />
+   {/* <Main /> */}
    
     </div>
-    </React.StrictMode>
+    </ >
     
   )
 }
