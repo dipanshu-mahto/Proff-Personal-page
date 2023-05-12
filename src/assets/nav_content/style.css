@@ -1,0 +1,54 @@
+
+
+#content-style{
+    /* padding: 10px 5px 20px 10px; */
+    margin-right: 200px;
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+#heading{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 500;
+    
+}
+
+
+#heading:hover{
+    color: rgb(199, 63, 88);
+    transition: 0.3s;
+}
+
+
+
+.name-style{
+    font-weight: bold;
+    
+}
+
+ul, li, p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-left: 2%;
+    margin-bottom: 30px;
+    word-spacing: 6px;
+    /* font-size: 20px; */
+    /* color: red; */
+    
+}
+
+
+#head1{
+    font-size: 30px;
+    /* font-weight: bold; */
+    padding: 1px;
+    margin-left: 19%;
+    font-style: italic;
+    font-weight: 500; 
+}
+
+#head1:hover{
+    color: rgb(199, 63, 88);
+    transition: 0.4s;
+}

@@ -6,7 +6,7 @@ import Home from "./assets/main"
 import Administration from "./assets/nav_content/administration"
 import Member from "./assets/nav_content/members"
 import Projects  from "./assets/nav_content/Projects"
-import Publications from "./assets/nav_content/Publications"
+import Publications from "./assets/nav_content/publications"
 import Contact from "./assets/nav_content/contact"
 function AppRouter(){
     return (

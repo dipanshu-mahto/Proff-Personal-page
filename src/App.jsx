@@ -4,18 +4,18 @@ import AppRouter from './AppRouter'
 
 
 import './App.css'
+import data from "./assets/nav_content/Publications/data"
 import Main from './assets/main'
 import Navbar from './assets/nav'
-function App() {
 
+
+  
+function App() {
   return (
     <>
-    <div className="App">
     <Navbar />
-   {/* <Main /> */}
    
-    </div>
-    </ >
+    </>
     
   )
 }

@@ -1,7 +1,9 @@
 import React from "react";
 function projects(){
     return (
-        <h1>Projects </h1>
+        <div>
+            <h1>Projects </h1>
+        </div>
     )
     
 }

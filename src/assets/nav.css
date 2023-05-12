@@ -1,0 +1,40 @@
+.navBar {
+    display: flexbox;
+    background-color: black;
+    font-family: 'Mukta', sans-serif;
+    font-size: 14px;
+    height: 90px;
+}
+
+.navBar ul {
+    
+    overflow: auto;
+    margin-top: 0;
+}
+
+.navBar li {
+    float:right;
+    list-style: none;
+    margin: 30px 14px;
+}
+
+.navBar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+
+.navBar li a:hover {
+    color: rgb(32, 200, 99);
+}
+
+.navBar img {
+    width: 80px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}

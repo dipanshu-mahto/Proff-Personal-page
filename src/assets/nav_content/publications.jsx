@@ -1,8 +1,19 @@
 import React from "react";
-function publications(){
+import "./style.css"
+import Pub from './pub'
+import data from "./Publications/data";
+const pub = data.map(item => {
+  
     return (
-        <h1>Publications - Journal</h1>
+        <Pub
+            key={item.id}
+            {...item}
+            
+        />
     )
-    
+})  
+export default function (){
+    return(
+       pub
+    )
 }
-export default publications

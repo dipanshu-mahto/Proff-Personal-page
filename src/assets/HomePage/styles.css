@@ -1,0 +1,114 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&family=Roboto:wght@300;400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .navBar {
+            display: flexbox;
+            background-color: black;
+            font-family: 'Mukta', sans-serif;
+            font-size: 14px;
+            height: 90px;
+        }
+
+        .navBar ul {
+            
+            overflow: auto;
+            margin-top: 0;
+        }
+
+        .navBar li {
+            float:right;
+            list-style: none;
+            margin: 30px 14px;
+        }
+
+        .navBar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .navBar li a:hover {
+            color: rgb(32, 200, 99);
+        }
+
+        .navBar img {
+            width: 80px;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main {
+            display: flex;
+            background-color: rgb(26, 35, 44);
+            height: 92vh;
+        }
+
+        .infoContainer {
+            
+            background-color: rgb(26, 35, 44);
+            height: 50vh;
+            margin: 140px auto;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .teacherInfo {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        #pic {
+            display: inline-flexbox;
+            height: 50vh;
+        }
+
+        .name {
+            color: rgb(32, 200, 99);
+            font-family: 'Noto Sans', sans-serif;
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        .info {
+            color: white;
+            font-size: 30px;
+            font-family: 'Mukta', sans-serif;
+        }
+
+        .moreInfo {
+            color: white;
+            font-size: 14px;
+            font-family: 'Noto Sans', sans-serif;
+        }
+
+        .buttons button {
+            margin-top: 16px;
+            margin-right: 10px;
+            padding: 9px;
+            border-radius: 19px;
+            color: black;
+            background-color: rgb(32, 200, 99);
+            font-weight: bold;
+            font-size: 17px;
+            cursor: pointer;
+            border-style: none;
+        }
+
+        .buttons button:hover {
+            color: rgb(26, 35, 44);
+            background-color: white;
+            scale: 1.04;
+        }
+    
